@@ -1,0 +1,141 @@
+.hexrow {
+  white-space: nowrap;
+  margin: 0 25px 3px; }
+  .hexrow .hex a {
+    background-color: #787878; }
+    .hexrow .hex a > div:first-of-type, .hexrow .hex a > div:last-of-type {
+      background-color: #787878; }
+  .hexrow .hex {
+    width: 100px;
+    height: 173.2px;
+    margin: 0 25px;
+    position: relative;
+    text-align: center;
+    line-height: 173.2px;
+    display: inline-block; }
+    .hexrow .hex a > span {
+      display: inline-block;
+      margin: 0 -30px;
+      line-height: 1.1;
+      vertical-align: middle;
+      white-space: normal; }
+    .hexrow .hex:hover {
+      cursor: pointer;
+      opacity: 0.3; }
+    .hexrow .hex:nth-child(odd) {
+      top: 43.3px; }
+    .hexrow .hex:nth-child(even) {
+      top: -44.8px; }
+    .hexrow .hex a > div:first-of-type {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      overflow: hidden;
+      background-image: inherit;
+      -ms-transform: rotate(60deg);
+      /* IE 9 */
+      -moz-transform: rotate(60deg);
+      /* Firefox */
+      -webkit-transform: rotate(60deg);
+      /* Safari and Chrome */
+      -o-transform: rotate(60deg);
+      /* Opera */
+      transform: rotate(60deg); }
+      .hexrow .hex a > div:first-of-type:before {
+        content: '';
+        position: absolute;
+        width: 200px;
+        /* width of main + margin sizing */
+        height: 100%;
+        background-image: inherit;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: auto 120%;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        -ms-transform: rotate(-60deg) translate(-150px, 0);
+        /* IE 9 */
+        -moz-transform: rotate(-60deg) translate(-150px, 0);
+        /* Firefox */
+        -webkit-transform: rotate(-60deg) translate(-150px, 0);
+        /* Safari and Chrome */
+        -o-transform: rotate(-60deg) translate(-150px, 0);
+        /* Opera */
+        transform: rotate(-60deg) translate(-150px, 0);
+        -ms-transform-origin: 0 0;
+        /* IE 9 */
+        -webkit-transform-origin: 0 0;
+        /* Safari and Chrome */
+        -moz-transform-origin: 0 0;
+        /* Firefox */
+        -o-transform-origin: 0 0;
+        /* Opera */
+        transform-origin: 0 0; }
+    .hexrow .hex a > div:last-of-type {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -2;
+      overflow: hidden;
+      background-image: inherit;
+      -ms-transform: rotate(-60deg);
+      /* IE 9 */
+      -moz-transform: rotate(-60deg);
+      /* Firefox */
+      -webkit-transform: rotate(-60deg);
+      /* Safari and Chrome */
+      -o-transform: rotate(-60deg);
+      /* Opera */
+      transform: rotate(-60deg); }
+      .hexrow .hex a > div:last-of-type:before {
+        content: '';
+        position: absolute;
+        width: 200px;
+        /* starting width + margin sizing */
+        height: 100%;
+        background-image: inherit;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: auto 120%;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        /*translate properties are initial width (100px) and half height (173.2 / 2 = 86.6) */
+        -ms-transform: rotate(60deg) translate(100px, 86.6px);
+        /* IE 9 */
+        -moz-transform: rotate(60deg) translate(100px, 86.6px);
+        /* Firefox */
+        -webkit-transform: rotate(60deg) translate(100px, 86.6px);
+        /* Safari and Chrome */
+        -o-transform: rotate(60deg) translate(100px, 86.6px);
+        /* Opera */
+        transform: rotate(60deg) translate(100px, 86.6px);
+        -ms-transform-origin: 100% 0;
+        /* IE 9 */
+        -webkit-transform-origin: 100% 0;
+        /* Safari and Chrome */
+        -moz-transform-origin: 100% 0;
+        /* Firefox */
+        -o-transform-origin: 100% 0;
+        /* Opera */
+        transform-origin: 100% 0; }
+  .hexrow .hex a {
+    width: 100px;
+    height: 173.2px;
+    margin: 0 25px;
+    position: relative;
+    background-image: url("http://i1166.photobucket.com/albums/q605/Artem_Lebedev/dog-training-collars.jpg");
+    background-position: -50px 0;
+    background-repeat: no-repeat;
+    background-size: auto 120%;
+    color: #000000;
+    text-align: center;
+    line-height: 173.2px;
+    display: inline-block; }

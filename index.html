@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pruebas</title>
+  <link rel="stylesheet" href="css/comb-layout.css">
+  <style type="text/css">
+  /* Flecha curvada */
+
+  .arrow {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-right: 9px solid red;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    border: 0 solid transparent;
+    border-top: 3px solid red;
+    border-radius: 20px 0 0 0;
+    top: -12px;
+    left: -9px;
+    width: 12px;
+    height: 12px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+  }
+  </style>
+
+  <style type="text/css">
+    .wrapper { box-sizing: border-box; width: 960px; margin: 0px auto; padding-top: 38.1px;}
+  </style>
+</head>
+
+<body>
+  <!-- <div class="arrow"></div> -->
+  <div class="wrapper">
+    <div class="hexrow">
+
+      <div class="hex">
+        <a href="#">
+          <span>Any text you would like (that fits).</span>
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+
+      <div class="hex">
+        <a href="#">
+          <span>Really, change the text to say what you want!</span>
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+
+      <div class="hex">
+        <a href="#">
+          <span>I'm not kidding here.</span>
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+
+      <div class="hex">
+        <a href="#">
+          <span>Okay?</span>
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+
+      <div class="hex">
+        <a href="#">
+          <span>Okay?</span>
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="hexrow">
+
+      <div class="hex">
+        <a href="#">
+          <span>Did I mention you can change images? I mean, really, these are just rectangular images "cropped" to a hex shape (well, more complicated than just a crop, but the result is the same).</span>
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+
+      <div class="hex">
+        <a href="#">
+          <span>See, another image!</span>
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+      <div class="hex">
+        <a href="#">
+          <span>Testing opacity.</span>
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+
+  </div>
+</body>
+
+</html>
